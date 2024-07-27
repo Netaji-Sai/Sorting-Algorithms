@@ -8,7 +8,8 @@ This repository contains the following sorting algorithms(Recursive and Iterativ
 3. Insertion Sort
 4. Merge Sort
 5. Quick Sort
-6.Counting Sort
+6. Counting Sort
+7. Heap Sort
 
 ## Algorithms Explained
 ### 1. Bubble Sort
@@ -42,6 +43,13 @@ Quick Sort is a highly efficient sorting algorithm that selects a 'pivot' elemen
 Counting Sort is a non-comparison-based sorting algorithm that counts the number of occurrences of each distinct element in the input and uses this information to place each element in its correct position.
 * Time Complexity: O(n+k), where n is the number of elements and k is the range of the input
 * Space Complexity: O(k)
+
+### 7. Heap Sort
+* Heap Sort is a comparison-based sorting algorithm that uses a binary heap data structure to sort elements. The binary heap can be either a max-heap or a min-heap, depending on the sorting order required. For sorting in ascending order, a max-heap is typically used.
+* Time Complexity: O(nlogn), where n is the number of elements
+  * For Heap : O(n)
+  * For Sorting : O(nlogn)
+* Space Complexity: O(1) -> as we dont use any extra space here.
 
 ## How to Use
 To run any of these sorting algorithms, you can clone this repository and compile the Java files using any Java IDE or the command line. Here's an example of how to run the Bubble Sort Iterative version:
